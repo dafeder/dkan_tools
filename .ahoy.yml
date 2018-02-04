@@ -1,0 +1,10 @@
+ahoyapi: v1
+usage: DKAN management cli.
+commands:
+  make:
+    usage: Gets all of the needed dependencies, and configures DKAN into a working Drupal instance.
+    cmd: php ./scripts/make.php
+  package:
+    usage: Adds extra information to the github packaged versions of dkan releases.
+    cmd: php ./scripts/package.php {{args}}
+ 
