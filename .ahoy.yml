@@ -7,4 +7,7 @@ commands:
   package:
     usage: Adds extra information to the github packaged versions of dkan releases.
     cmd: php ./scripts/package.php {{args}}
+  release-notes:
+    usage: Get information about the commits between releases
+    cmd: php ./scripts/release_notes.php {{args}}
  
